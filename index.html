@@ -1,0 +1,19 @@
+<title>Laplace</title>
+<h1>Laplace</h1>
+<div class="inline">
+	<h2>
+		f(t) = <input value="cos(t)/(sin(t/2)-2)" id="input" onchange="refresh()">
+	</h2>
+	<button onclick="setMode('draw')">draw</button>
+	<button onclick="setMode('move')">move</button>
+	<canvas style="cursor:move" id="functionCanvas"  width="640" height="480" ></canvas>
+</div>
+<div class="inline">
+	<h2>
+		&#8466;{f(t)}
+	</h2>
+	<canvas id="transformCanvas" width="640" height="480" ></canvas>
+</div>
+
+<script src="./index.js"></script>
+<link rel="stylesheet" href="./index.css" type="text/css" charset="utf-8">
